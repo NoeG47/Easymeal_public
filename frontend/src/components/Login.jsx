@@ -120,9 +120,9 @@ const Login = () => {
         </form>
         <p className="text-center mt-6 hover:scale-105 duration-300">
           ¿No tienes cuenta?{" "}
-          <a href="/registrar" className="text-sage font-semibold">
+          <Link to="/registrar" className="text-sage font-semibold">
             Regístrate aquí
-          </a>
+          </Link>
         </p>
       </div>
     </div>

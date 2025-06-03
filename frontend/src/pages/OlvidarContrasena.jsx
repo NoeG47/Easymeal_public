@@ -64,9 +64,9 @@ const OlvidarContrasena = () => {
           </button>
         </form>
         <p className="text-center mt-6">
-          <a href="/login" className="text-sage font-semibold hover:underline">
+          <Link to="/login" className="text-sage font-semibold hover:underline">
             Volver al inicio de sesión
-          </a>
+          </Link>
         </p>
       </div>
     </div>

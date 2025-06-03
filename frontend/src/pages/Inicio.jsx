@@ -80,12 +80,12 @@ const Inicio = () => {
             ¿Aún no tienes cuenta?
           </p>
           <p className="text-lg sm:text-xl md:text-2xl text-center">
-            <a
+            <Link
               className="italic font-bold text-black px-2 py-1 bg-[url('/images/index/fondo_texto.png')] bg-cover bg-center rounded -mr-2"
-              href="/registrar"
+              to="/registrar"
             >
               ¡Regístrate{" "}
-            </a>
+            </Link>
             gratis y empieza a planificar mejor!
           </p>
         </div>
