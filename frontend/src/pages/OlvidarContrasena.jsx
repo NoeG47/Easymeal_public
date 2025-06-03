@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { sendPasswordResetEmail } from "firebase/auth";
 import { auth } from "../firebase/firebaseConfig";
 import Swal from "sweetalert2";
-
+import { Link } from "react-router-dom";
 const OlvidarContrasena = () => {
   const [correo, setCorreo] = useState("");
 
